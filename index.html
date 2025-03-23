@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Croc Sessions</title>
+    <link rel="shortcut icon" href="img/hero-brand.png" type="image/x-icon">
+    <!--Bootstrap Icon CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Bootstrap Style CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Custom Style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-container">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <div class="hidden" id="main-content">
+        <!--Navigation Bar-->
+        <div class="container-fluid fixed-top">
+            <div class="container text-body-light">
+                <header class="d-flex justify-content-center py-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-dark rounded-5 shadow-sm " id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-dark); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                                <li class="nav-item" role="presentation">
+                                    <a href="index.html" class="my-nav-anchor">
+                                    <button class="nav-link my-nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a href="events.html" class="my-nav-anchor">
+                                    <button class="nav-link my-nav-link  rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Events</button>                           
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a href="menu.html" class="my-nav-anchor">
+                                    <button class="nav-link my-nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Menu</button>
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a href="gallery.html" class="my-nav-anchor">
+                                    <button class="nav-link my-nav-link  rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Gallery</button>                           
+                                    </a>
+                                </li>                              
+                            </ul>                            
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <!--Header Section-->
+        <header class="my-header mt-4">
+            <h1 class="main-heading mt-4"></h1>
+        </header>
+
+        <!--Main Content-->
+        <main>
+            <div class="container mt-4 hero">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card text-bg-dark">
+                          <img src="img/hero-img.jpg" class="img-fluid rounded-5" alt="...">
+                            <div class="card-img-overlay text-center">                      
+                                <div class="hero-button--wrap">
+                                 <a href="#Features" class="hero-button--anchor"><i class="bi bi-arrow-down-circle-fill hero-button"></i></a> 
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-4 hero">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="main-heading" id="Features">
+                            Appearences
+                        </h1>
+                    </div>
+                    <div class="col-12">
+                        <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/33.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                      <h5 class="sub-heading">Dj Christos</h5>
+                                      <div class="appearences-btn">
+                                        <button href="event.html" class="btn my-btn my-btn--white"> View Events </button>
+                                    </div>
+                                    </div>
+                                  </div>
+                              <div class="carousel-item ">
+                                <img src="img/34.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="sub-heading">BOO</h5>
+                                  <div class="appearences-btn">
+                                    <button href="event.html" class="btn my-btn my-btn--white"> View Events </button>
+                                </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/35.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="sub-heading">Exile</h5>
+                                  <div class="appearences-btn">
+                                    <button href="event.html" class="btn my-btn my-btn--white"> View Events </button>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-4 hero">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12">
+                        <h1 class="main-heading">
+                           Events
+                        </h1>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="card text-bg-dark">
+                            <img src="img/events/28-03-2025.png" class="card-img" alt="...">
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-4 hero">
+              <div class="row  align-items-center justify-content-center">
+                <div class="col-12">
+                    <h1 class="main-heading">
+                       Memories
+                    </h1>
+                </div>
+                <div class="col-12 mb-1 p-1">
+                  <img src="img/42.jpg" class="img-fluid" alt="image-1'">
+                </div>
+                <div class="col-md-4 mb-sm-1 p-1">
+                  <img src="img/gallery/opening/2.jpg" class="img-fluid" alt="image-2">
+                </div>
+                <div class="col-md-4 mb-sm-1 p-1">
+                  <img src="img/gallery/opening/3.jpg" class="img-fluid" alt="image-3">
+                </div>
+                <div class="col-md-4 mb-sm-1 p-1">
+                  <img src="img/45.jpg" class="img-fluid" alt="image-4">
+                </div>
+                <div class="col-12  mb-1 p-1">
+                  <img src="img/43.jpg" class="img-fluid" alt="image-5">
+                </div>
+                <div class="col-md-6 mb-sm-1 p-1">
+                  <img src="img/gallery/opening/1.jpg" class="img-fluid" alt="image-6">
+                </div>
+                <div class="col-md-6 mb-sm-1 p-1">
+                  <img src="img/gallery/opening/5.jpg" class="img-fluid" alt="image-7">
+                </div>
+              </div>
+            </div>
+
+            <div class="container mt-4 hero">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 p-1">
+                        <h1 class="main-heading">
+                           Menu
+                        </h1>
+                        <div class="photo-collage">
+                            <div class="photo" onclick="openPopup('img1')">
+                              <img src="img/22.jpg" alt="Image 1" id="img1">
+                            </div>
+                            <div class="photo" onclick="openPopup('img2')">
+                              <img src="img/26.jpg" alt="Image 2" id="img2">
+                            </div>
+                            <div class="photo" onclick="openPopup('img3')">
+                              <img src="img/23.jpg" alt="Image 3" id="img3">
+                            </div>
+                            <div class="photo" onclick="openPopup('img4')">
+                              <img src="img/25.jpg" alt="Image 4" id="img4">
+                            </div>
+                            <div class="photo md-tab-down" onclick="openPopup('img5')">
+                              <img src="img/24.jpg" alt="Image 5" id="img5">
+                            </div>
+                            <div class="photo md-tab-down" onclick="openPopup('img6')">
+                              <img src="img/27.jpg" alt="Image 6" id="img6">
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                        <button href="event.html" class="btn my-btn  my-btn--orange"> View Menu </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+
+        <div class="container">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-5 my-5 border-top">
+              <div class="col-lg-2 mb-3 text-center">
+                <a href="index.html" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                    <img src="img/hero-brand.png" class="footer-brand">
+                </a>
+              </div>
+          
+              <div class="col-lg-5 mb-3">
+                <h5 class="footer-header">Quick Links</h5>
+                <ul class="nav footer-ul flex-column">
+                  <li class="nav-item mb-2"><a href="index.html" class="nav-link  p-0 my-footer-link--active active">Home</a></li>
+                  <li class="nav-item my-nav-item  mb-2"><a href="events.html" class="nav-link my-footer-link p-0 ">Events</a></li>
+                  <li class="nav-item my-nav-item  mb-2"><a href="menu.html" class="nav-link my-footer-link p-0 ">Menu</a></li>
+                  <li class="nav-item my-nav-item  mb-2"><a href="gallery.html" class="nav-link my-footer-link p-0 ">Gallery</a></li>
+                  <li class="nav-item my-nav-item  mb-2"><a href="contact.html" class="nav-link my-footer-link p-0 ">Contact</a></li>
+                </ul>
+              </div>
+          
+              <div class="col-lg-5 mb-3">
+                <h5 class="footer-header">Contact</h5>
+                <ul class="nav footer-ul flex-column">
+                  <li class="nav-item my-nav-item  mb-2 contact-footer--link"><a href="events.html" class="nav-link my-footer-link p-0 "> <i class="bi bi-geo-alt-fill footer-icon"></i>0596 moseja section, bethanie, brits, 0270</a></li>
+                  <li class="nav-item my-nav-item  mb-2 contact-footer--link"><a href="menu.html" class="nav-link my-footer-link p-0 "><i class="bi bi-envelope-open-fill footer-icon"></i> info@crocsessions.co.za</a></li>
+                  <li class="nav-item my-nav-item  mb-2 contact-footer--link"><a href="gallery.html" class="nav-link my-footer-link p-0 "><i class="bi bi-telephone-fill footer-icon"></i> +27 (78) 312 - 3681</a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+          <div class="b-example-divider mb-4"></div>
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">Croc Sessions &copy; 2024</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="footer-social-icon" href="https://x.com/Croc_Sessions"><i class="bi bi-twitter-x"></i></a></li>
+                <li class="ms-3"><a class="footer-social-icon" href="https://www.facebook.com/people/Croc-Sessions/61564977219370/"><i class="bi bi-facebook"></i></a></li>
+                <li class="ms-3"><a class="footer-social-icon" href="https://www.facebook.com/people/Croc-Sessions/61564977219370/"><i class="bi bi-instagram"></i></a></li>
+              </ul>
+            </footer>
+          </div>
+    </div>
+
+
+
+
+    <script src="javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
